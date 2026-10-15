@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import { usePlateShare } from '../context/PlateShareContext';
+import { usePlateShare } from './PlateShareContext';
 import {
   UtensilsCrossed,
   PlusCircle,
