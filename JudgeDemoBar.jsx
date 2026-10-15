@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { usePlateShare } from '../context/PlateShareContext';
+import { usePlateShare } from './PlateShareContext';
 import { DEMO_PROFILES } from '../data/sampleListings';
 import { Sparkles, RotateCcw, UserCheck, AlertTriangle, X, ShieldAlert } from 'lucide-react';
 
