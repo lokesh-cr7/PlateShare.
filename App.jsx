@@ -1,20 +1,20 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import { ToastProvider } from './context/ToastContext';
-import { PlateShareProvider } from './context/PlateShareContext';
+import { ToastProvider } from './ToastContext';
+import { PlateShareProvider } from './PlateShareContext';
 
 // Components
-import JudgeDemoBar from './components/JudgeDemoBar';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import JudgeDemoBar from './JudgeDemoBar';
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 // Pages
-import LandingPage from './pages/LandingPage';
-import FindFoodPage from './pages/FindFoodPage';
-import DonateFoodPage from './pages/DonateFoodPage';
-import PickupManagementPage from './pages/PickupManagementPage';
-import DashboardPage from './pages/DashboardPage';
-import ImpactPage from './pages/ImpactPage';
+import LandingPage from './LandingPage';
+import FindFoodPage from './FindFoodPage';
+import DonateFoodPage from './DonateFoodPage';
+import PickupManagementPage from './PickupManagementPage';
+import DashboardPage from './DashboardPage';
+import ImpactPage from './ImpactPage';
 
 export default function App() {
   return (
